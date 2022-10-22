@@ -1,14 +1,12 @@
 header{
     background-color: black;
-    height: 70px;
+    height: 50px;
     display: flex;
-    justify-content: space-around;
-    text-decoration-color: white;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav{
-    display: flex;
-
+.logo {
+    width: auto;
+    height: 100%;
 }
-
-

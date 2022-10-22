@@ -8,13 +8,8 @@ function Header(){
     return(
         <header>
             <TemporaryDrawer/>
-            <img src="/logo.png" alt="logo"></img>
-            {/* <ul className="nav">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/search">Search</Link></li>
-                <li><Link to="/about">About</Link></li>
-            </ul> */}
-            <AccountMenu /> 
+            <img src="/logo.png" className="logo" alt="logo"></img>
+            <AccountMenu/> 
         </header>
     )
 }

@@ -1,15 +1,20 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import './style/Search.css'
+import './style/Main.css'
 
 function Main(){
     return (
-    <main>
-        <h1>Bienvenido a la base de datos de Yu-Gi-Oh!</h1>
-        <Link to='/search'>Comenzar búsqueda</Link>
-        <div>
-            <Link to='/login'>Acceder</Link>
-            <Link to='/register'>Registrarse</Link>
+    <main className="main">
+        <div className="mainTop">
+            <h1>¡Bienvenido!</h1>
+            <Link to='/search'><button>Comenzar búsqueda</button></Link>
+        </div>
+        <div className="mainLeft">
+            <h2>Carta aleatoria</h2>
+        </div>
+        <div className="mainRight">
+            <Link to='/login'><button>Ingresar</button></Link>
+            <Link to='/register'><button>Registrarse</button></Link>
         </div>
     </main>
     )
